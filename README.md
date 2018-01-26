@@ -13,10 +13,10 @@
 				src: url('digital-7_mono.ttf') format("truetype");
 			}
 		</style>
-		<link href="1_files/default.css" type="text/css" rel="stylesheet">
-		<script type="text/javascript" src="1_files/jquery.js"></script>
-		<script type="text/javascript" src="1_files/garden.js"></script>
-		<script type="text/javascript" src="1_files/functions.js"></script>
+		<link href="default.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="garden.js"></script>
+		<script type="text/javascript" src="functions.js"></script>
 
 	</head>
 
@@ -27,7 +27,7 @@
 				<font color="ff0000">关闭</font>
 			</div>
 			<a href="http://loveyue1.sinaapp.com/love/index.html" target="_blank" title="title" onclick="closead();">
-				<img border="0" alt="alt" src="1_files/bg.png" style="width: 150px;height: 203px"></a>
+				<img border="0" alt="alt" src="bg.png" style="width: 150px;height: 203px"></a>
 		</div>
 		<script>
 			var bodyfrm = (document.compatMode.toLowerCase() == "css1compat") ? document.documentElement : document.body;

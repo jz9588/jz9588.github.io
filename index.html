@@ -21,31 +21,7 @@
 	</head>
 
 	<body>
-		<!-- 浮动广告代码开始 -->
-		<div id="ShowAD" style="position: absolute; z-index: 100; top: 159px; left: 15px;">
-			<div style="width:150px;height:18px;font-size:14px;font-weight:bold;text-align:center;CURSOR: hand;" onclick="closead();">
-				<font color="ff0000">关闭</font>
-			</div>
-			<a href="http://loveyue1.sinaapp.com/love/index.html" target="_blank" title="title" onclick="closead();">
-				<img border="0" alt="alt" src="bg.png" style="width: 150px;height: 203px"></a>
-		</div>
-		<script>
-			var bodyfrm = (document.compatMode.toLowerCase() == "css1compat") ? document.documentElement : document.body;
-			var adst = document.getElementById("ShowAD").style;
-			adst.top = (bodyfrm.clientHeight - 530 - 22) + "px";
-			adst.left = "15px";
-
-			function moveR() {
-				adst.top = (bodyfrm.scrollTop + bodyfrm.clientHeight - 530 - 22) + "px";
-				adst.left = "15px";
-			}
-			setInterval("moveR();", 400);
-
-			function closead() {
-				adst.display = 'none';
-			}
-		</script>
-		<!-- 浮动广告代码结束 -->
+		
 		<div id="mainDiv">
 			<div id="content" style="width: 1110px; height: 625px; margin-top: 43px; margin-left: 213px;">
 				<div id="code" style="margin-top: 112.5px;">
